@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme"
+    tools:context="info.androidhive.saludate.activity.Login">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    >
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/log"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        style="@style/CategoryStyle">
+
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user"
+            />
+        <EditText
+            android:id="@+id/txtDNI"
+            style="@style/EditText"
+            android:digits="1234567890"
+            android:maxLength="8"
+            android:inputType="number"
+            android:layout_marginLeft="5dp"
+            android:buttonTint="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="Ingrese su DNI"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        style="@style/CategoryStyle"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/key"
+            />
+        <EditText
+            android:id="@+id/txtPass"
+            style="@style/EditText"
+            android:buttonTint="@android:color/darker_gray"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890 "
+            android:maxLength="6"
+            android:layout_width="match_parent"
+            android:hint="Ingrese su Contraseña"
+            android:inputType="numberPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/entrar"
+        android:text="Iniciar Sesión"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/boton_redondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/forgot"
+        android:textColor="@android:color/darker_gray"
+        android:text="Has olvidado la contraseña?"/>
+
+
+</LinearLayout>
+</ScrollView>

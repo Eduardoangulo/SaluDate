@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="50dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/paciente"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/paciente"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/especialidad_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/especialidad"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/doctor"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="20px"
+            android:id="@+id/doctor"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/clock"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/horario"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/calendario"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/fecha"
+            />
+    </LinearLayout>
+</LinearLayout>

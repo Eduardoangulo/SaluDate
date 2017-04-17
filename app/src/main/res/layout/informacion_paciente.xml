@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_modificar"
+    android:paddingTop="50dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/usuario"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/nombreUsuario"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/carnet"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/nroDNI"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/intersex"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="20px"
+            android:id="@+id/genero"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/regalo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/fechaNac"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/telefono"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/movil"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/nrocita"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dialogo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="15px"
+            android:id="@+id/nroCita"
+            />
+    </LinearLayout>
+</LinearLayout>

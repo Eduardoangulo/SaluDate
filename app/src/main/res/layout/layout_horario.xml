@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16px">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:background="@drawable/calendario"
+            android:layout_width="20dp"
+            android:layout_marginLeft="20px"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:textSize="15sp"
+            android:id="@+id/textView6" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="15px"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/reloj"/>
+        <TextView
+            android:id="@+id/fechaTextView"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:layout_marginLeft="15px"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>

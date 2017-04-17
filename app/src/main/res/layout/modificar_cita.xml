@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="@string/Modificar"
+        android:fontFamily="bold"
+        android:paddingBottom="10dp"
+        android:textColor="@color/Dialogo"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/especialidad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+            />
+
+        <Spinner
+            android:id="@+id/especialidadSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:entries="@array/especialidades"
+            android:scrollbarSize="8sp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/doctor"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    <Spinner
+        android:id="@+id/doctorsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/doctores"
+        android:scrollbarSize="8sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/calendario"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    <Spinner
+        android:id="@+id/horariosSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scrollbarSize="8sp"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/horarios"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/highlight"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/text_modi"/>
+
+</LinearLayout>

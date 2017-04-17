@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorModificar">#95b2e1</color>
+    <color name="colorPrimaryDark">#49638c</color>
+    <color name="colorAccent">#c3d2e9</color>
+    <color name="colorTheme">#f2f5f9</color>
+    <color name="tema">#848aa78c</color>
+    <color name="textview">#c3d2e9</color>
+    <color name="actionbar">#ffffff</color>
+    <color name="backgroungAB">#2153a7</color>
+    <color name="highlight">#9c8e8e8e</color>
+    <color name="normal">#caffffff</color>
+    <color name="Dialogo">#e30e160e</color>
+    <color name="trans">#00000000 </color>
+    <color name="diayfecha">#ca3eadc9</color>
+    <color name="especialidad">#ca1d687b</color>
+    <color name="actionbarC">#356097</color>
+</resources>
